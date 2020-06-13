@@ -7,6 +7,6 @@ ssh -i "~/Downloads/sample-node-js-application-for-split-io.pem" ubuntu@ec2-3-13
     nvm install v10.11.0
     npm install
     npm install -g nodemon pm2
-    pm2 restart index.js
+    pm2 restart ecosystem.config.js
     exit
 EOF
